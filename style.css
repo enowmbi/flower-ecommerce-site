@@ -1,0 +1,52 @@
+* {
+    color: #707070;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --pink: #e84393;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background: #fff;
+    top: 0;
+    text-decoration: none;
+    position: sticky;
+    color: #707070;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.header-left span {
+    color: var(--pink);
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 1.25rem;
+}
+
+nav ul li a:hover {
+    color: var(--pink);
+}
+
+.icons a {
+    margin-right: 15px;
+    font-size: 22px;
+}

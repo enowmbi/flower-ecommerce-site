@@ -77,6 +77,10 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
+.home-info {
+    color: #999;
+}
+
 .btn-shop-now {
     color: #fff;
     background: #333;

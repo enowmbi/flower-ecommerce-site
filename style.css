@@ -1,5 +1,5 @@
 * {
-    color: #707070;
+    color: #333;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -25,7 +25,6 @@ header {
 .logo {
     font-weight: bolder;
     font-size: 2.5rem;
-    color: #333;
 }
 
 .header-left span {
@@ -49,4 +48,46 @@ nav ul li a:hover {
 .icons a {
     margin-right: 15px;
     font-size: 22px;
+}
+
+.home {
+    background: url("images/home-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.home-text {
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+.home-text h1 {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.home-text h2 {
+    font-weight: 500;
+    font-size: 2.15rem;
+    color: var(--pink);
+}
+
+.home-text p:last-child {
+    margin-top: 20px;
+}
+
+.btn-shop-now {
+    color: #fff;
+    background: #333;
+    padding: 10px 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.btn-shop-now:hover {
+    background: var(--pink);
 }

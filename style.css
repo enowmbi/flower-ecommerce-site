@@ -55,6 +55,7 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    margin-bottom: 40px;
 }
 
 .home-text {
@@ -81,17 +82,85 @@ nav ul li a:hover {
     color: #999;
 }
 
-.btn-shop-now {
+.btn {
     color: #fff;
     background: #333;
     padding: 10px 30px;
     border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
 }
 
-.btn-shop-now:hover {
+.btn:hover {
     background: var(--pink);
+}
+
+#about-us {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-us-title {
+    background: rgb(252, 244, 245);
+    text-align: center;
+    padding: 15px 50px;
+    margin-bottom: 35px;
+}
+
+.about-us-title h1 {
+    font-weight: bolder;
+    font-size: 2.25rem;
+}
+
+.about-us-title span {
+    color: var(--pink);
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-content-left {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.about-us-content-right {
+    flex-basis: 40%;
+}
+
+.about-us-content-right h1 {
+    /* padding-top: 35px; */
+}
+
+.about-us-content-right p:last-child {
+    margin-top: 15px;
+}
+
+.about-us-video {
+    width: 100%;
+    border: 1rem solid #fff;
+    border-radius: .5rem;
+    /* height: 100%; */
+    object-fit: cover;
+    /* padding: 1rem 1rem; */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.about-us-content-left h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
